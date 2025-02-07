@@ -6,7 +6,7 @@ let started = false;
 let level = 0;
 let h5 = document.querySelector("h5")
 
-document.addEventListener("click", function (){
+document.addEventListener("touchstart", function (){
     if(started == false){
         console.log("Game is Started")
         started = true;
